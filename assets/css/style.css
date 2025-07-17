@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+}
+.header_section{
+    position: fixed;
+    top: 20px;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.header_inner_main{
+    background: #0A2540;
+    border-radius: 30px;
+}
+.hero_section{
+    background-image: url(../../assets/img/hero1.png);
+    height: auto;
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.navbtn button{
+    margin-left: 20px;
+    background-color: #FFFFFF;
+    padding: 8px 16px;
+    border-radius: 30px;
+    color: #0A2540;
+    font-weight: 700;
+    font-size: 16px;
+}
