@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/* {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-family: "Manrope", sans-serif;
+} */
 body{
     padding: 0;
     margin: 0;
@@ -11,24 +17,205 @@ body{
     right: 0;
     z-index: 99;
 }
+.navbar ul li a{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0A2540 !important;
+}
 .header_inner_main{
-    background: #0A2540;
+    background: #E5E4E4;
     border-radius: 30px;
 }
 .hero_section{
-    background-image: url(../../assets/img/hero1.png);
+    background-image: url(../../assets/img/hero.svg);
     height: auto;
     min-height: 100vh;
     width: 100%;
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
 }
 .navbtn button{
     margin-left: 20px;
-    background-color: #FFFFFF;
-    padding: 8px 16px;
+    background-color: #1E6CDF;
+    padding: 8px 20px;
     border-radius: 30px;
-    color: #0A2540;
+    color: #fff;
     font-weight: 700;
     font-size: 16px;
+    border: none;
 }
+.hero_text_main{
+    width: 100%;
+    max-width: 550px;
+}
+.hero_text1 h1{
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 70px;
+    color: #0A2540;
+}
+.hero_text1 h1 span{
+    color: #FF7F3E;
+}
+.hero_text1 p{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #0A2540;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.hero_cus_card{
+    background: #FFFFFF;
+    padding: 12px 25px;
+    margin-top: 30px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 450px;
+}
+.hero_cus_card p{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    vertical-align: middle;
+    color: #A1A1A1;
+    margin-bottom: 0;
+}
+.hero_cus_card h6{
+    margin-top: 4px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: middle;
+    color: #0A2540;
+    margin-bottom: 0;
+}
+.hero_cus_card h6 span{
+    color: #FF7F3E;
+}
+.hero_two_btns{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.hero_two_btns button{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 0.3s ease;
+    background-color: transparent;
+    border: none;
+    color: #0A2540;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 12px;
+    padding: 16px 20px;
+    border-radius: 30px;
+    min-width: 170px;
+}
+.hero_two_btns button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #1E6CDF;
+    z-index: -1;
+    transition: transform 0.4s ease;
+    transform: translateX(0);
+}
+.hero_two_btns button:hover::before {
+    transform: translateX(100%);
+}
+.hero_two_btns button:hover {
+    color: #FFFFFF;
+}
+.hero_two_btns button:first-child::before {
+    transform: translateX(100%);
+}
+.hero_two_btns button:first-child {
+    color: white;
+}
+.home_section_one{
+    padding: 60px 0px;
+    margin-top: 40px;
+}
+.home_sec1_img_div{ 
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.home_sec1_img_div img{
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.5s ease;
+}
+.home_sec1_img_div:hover img {
+    transform: scale(1.1);
+}
+.home_sec1_txt{
+    margin-top: 20px;
+}
+.home_sec1_txt h1{
+    font-weight: 700;
+    font-size: 48px;
+    color: #0A2540;
+    margin-bottom: 0;
+    line-height: 58px;
+}
+.home_sec1_txt h1 span{
+    color: #5C5C5C;
+}
+.home_sec1_txt p{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #4D4D4D;
+    margin-top: 30px;
+}
+.home_section_two{
+    background: #F5F5F5;
+    padding: 60px 0px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
