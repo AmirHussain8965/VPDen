@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/* {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-family: "Manrope", sans-serif;
+} */
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+}
+.accounts_section{
+    width: 100%;
+    display: flex;
+}
+.accounts_img_div{
+    width: 100%;
+    background-image: url(../../assets/img/Form2.svg);
+    height: auto;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.accounts_card_main{
+    width: 100%;
+    padding: 40px 30px;
+    display: flex;
+}
+.accouns_card_body_div{
+    width: 100%;
+    max-width: 475px;
+    margin: auto;
+    background-color: #FFFFFF;
+    min-height: 300px;
+}
+.accounts_title{
+    text-align: center;
+}
+.accounts_title img{
+    margin: 40px 0px;
+}
+.accounts_title h1{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: 0;
+    color: #0A2540;
+}
+.accounts_title h1 span{
+    color: #FF7F3E;
+}
+.accounts_title h1 span.signup_span{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+.accounts_title p{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    text-align: center;
+    color: #0A2540;
+    margin-top: 40px;
+}
+.accounts_title p a{
+    color: #00A5FF;
+}
+.accounts_inputs_div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 35px;
+}
+.accounts_inputs_div input{
+    background-color: #F5F5F5;
+    border-radius: 4px;
+    border: none;
+    padding: 14px 16px;
+    color: #ABABAB;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    outline: none;
+}
+.accounts_inputs_div input::placeholder{
+    color: #ABABAB;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.terms_div{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    align-items: center;
+}
+.Forgot_div a{
+    display: block;
+    margin-top: 10px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #0A2540;
+    cursor: pointer;
+    text-decoration: none;
+}
+.terms_div label{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #0A2540;
+    cursor: pointer;
+}
+.terms_div input{
+    accent-color: #0A2540;
+    height: 18px;
+    width: 18px;
+}
+.terms_div label a{
+    color: #00A5FF;
+    text-decoration: none;
+}
+.accounts_btn button{
+    background: #1E6CDF;
+    padding: 12px 16px;
+    margin-top: 30px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+    width: 100%;
+}
+.accounts_social_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 30px;
+}
+.accounts_social_icons p{
+    margin-bottom: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #0A2540;
+}
+.accounts_last{
+    margin-bottom: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #0A2540;
+    margin-top: 30px;
+}
+.accounts_last a{
+    text-decoration: none;
+    color: #1E6CDF;
+}
+@media (max-width: 992px){
+    .accounts_section {
+        width: 100%;
+        background-image: url(../../assets/img/Form2.svg);
+        height: auto;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .accounts_img_div{
+        display: none;
+    }
+    .accouns_card_body_div{
+        max-width: 576px;
+        padding: 50px 20px;
+        border-radius: 6px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

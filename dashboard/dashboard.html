@@ -15,25 +15,59 @@
         <div class="sidebar_main">
             <div class="toggle-btn" id="toggleBtn">☰</div>
             <div class="sidebar" id="sidebar">
-                <div class="cancel-btn" id="cancelBtn">×</div>
-                <h2>Sidebar Menu</h2>
-                <div class="sidebar_links">
-                    <a href="#">🏠 Dashboard</a>
-                </div>
-                <div class="sidebar_links">
-                    <a href="#">🏠 Subscription</a>
-                </div>
-                <div class="sidebar_links">
-                    <a href="#">🏠 Guides</a>
-                </div>
-                <div class="sidebar_links">
-                    <a href="#">🏠 Support</a>
-                </div>
-                <div class="sidebar_links">
-                    <a href="#">🏠 Downloads</a>
-                </div>
-                <div class="sidebar_links2">
-                    <a href="#">🏠 Downloads</a>
+                <div class="sidebar_inner">
+                    <div class="cancel-btn" id="cancelBtn">×</div>
+                    <h2><img src="../assets/img/Logo2.svg" alt=""> VPDen</h2>
+                    <div class="sidebar_links_main">
+                        <a href="dashboard.html" class="sidebar_links active">
+                        <div>
+                            <img src="../assets/img/sb1.svg" alt="">
+                            <label for="">Dashboard</label>
+                        </div>
+                        <i class="bi bi-chevron-right"></i>
+                    </a>
+                    <a href="subscription.html" class="sidebar_links">
+                        <div>
+                            <img src="../assets/img/sb2.svg" alt="">
+                            <label for="">Subscription</label>
+                        </div>
+                        <i class="bi bi-chevron-right"></i>
+                    </a>
+                    <a href="guides.html" class="sidebar_links">
+                        <div>
+                            <img src="../assets/img/sb3.svg" alt="">
+                            <label for="">Guides</label>
+                        </div>
+                        <i class="bi bi-chevron-right"></i>
+                    </a>
+                    <a href="support.html" class="sidebar_links">
+                        <div>
+                            <img src="../assets/img/sb4.svg" alt="">
+                            <label for="">Support</label>
+                        </div>
+                        <i class="bi bi-chevron-right"></i>
+                    </a>
+                    <a href="downloads.html" class="sidebar_links">
+                        <div>
+                            <img src="../assets/img/sb5.svg" alt="">
+                            <label for="">Downloads</label>
+                        </div>
+                        <i class="bi bi-chevron-right"></i>
+                    </a>
+                    <a href="account_setting.html" class="sidebar_links mt-5">
+                        <div class="sidebar_links_inner">
+                                <img src="../assets/img/proile.svg" alt="">
+                                <div class="">
+                                    <p>John Carter</p>
+                                    <label for="">Downloads</label>
+                                </div>
+                        </div>
+                        <i class="bi bi-chevron-right"></i>
+                    </a>
+                    </div>
+                    <div class="logout_btn">
+                        <button type="button">Logout <i class="bi bi-arrow-right"></i></button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -67,22 +101,6 @@
                                 </div>
                                 <h4>X.X.X.X</h4>
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <div class="dash_card_body_div">
-                                <div class="dash_card_top">
-                                    <img src="../assets/img/d2.svg" alt="">
-                                    <span>Logged in from</span>
-                                </div>
-                                <h4>IP Location</h4>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <div class="dash_map_card_div">
-                               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954804.679481894!2d-98.71671339999999!3d35.30904955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ac3911b1ac4f9d%3A0x5d1ccf33400aea48!2sOklahoma%2C%20USA!5e1!3m2!1sen!2s!4v1752578590917!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="dash_card_body_div">
                                 <div class="dash_card_top">
                                     <img src="../assets/img/d3.svg" alt="">
@@ -90,26 +108,6 @@
                                 </div>
                                 <h4>Premium</h4>
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <div class="dash_card_body_div">
-                                <div class="dash_card_top">
-                                    <img src="../assets/img/d4.svg" alt="">
-                                    <span>Status</span>
-                                </div>
-                                <h4>Connected</h4>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <div class="dash_card_body_div">
-                                <div class="dash_card_top">
-                                    <img src="../assets/img/d5.svg" alt="">
-                                    <span>January</span>
-                                </div>
-                                <h4>X.X.X.X</h4>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="dash_card_body_div">
                                 <div class="dash_card_top">
                                     <img src="../assets/img/d6.svg" alt="">
@@ -121,10 +119,132 @@
                         <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="dash_card_body_div">
                                 <div class="dash_card_top">
+                                    <img src="../assets/img/d2.svg" alt="">
+                                    <span>Logged in from</span>
+                                </div>
+                                <h4>IP Location</h4>
+                            </div>
+                            <div class="dash_card_body_div">
+                                <div class="dash_card_top">
+                                    <img src="../assets/img/d4.svg" alt="">
+                                    <span>Status</span>
+                                </div>
+                                <h4>Connected</h4>
+                            </div>
+                            <div class="dash_card_body_div">
+                                <div class="dash_card_top">
                                     <img src="../assets/img/d1.svg" alt="">
                                     <span>Support Tickets</span>
                                 </div>
                                 <h4>0</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="dash_map_card_div">
+                               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954804.679481894!2d-98.71671339999999!3d35.30904955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ac3911b1ac4f9d%3A0x5d1ccf33400aea48!2sOklahoma%2C%20USA!5e1!3m2!1sen!2s!4v1752578590917!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <div class="dash_card_body_div">
+                                <div class="dash_card_top2">
+                                    <div class="dash_card_top">
+                                        <img src="../assets/img/d5.svg" alt="">
+                                        <span>January</span>
+                                    </div>
+                                    <select class="form-select dashselect">
+                                        <option value="" selected>Jan 2025</option>
+                                        <option value="">Feb 2025</option>
+                                    </select>
+                                </div>
+                                <h5>Daily Usage</h5>
+                                <img src="../assets/img/graph.svg" class="w-100" alt="">
+                            </div> 
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="dash_bottom_card1">
+                                <div class="dash_bottom_card1_img">
+                                    <img src="../assets/img/db1.svg" alt="">
+                                </div>
+                                <div class="dash_bottom_card1_inner">
+                                    <p>Shipping Status </p>
+                                    <span>Delivered</span>
+                                </div>
+                                <div class="dash_bottom_card1_inner">
+                                    <p>Device Name</p>
+                                    <span>abc</span>
+                                </div>
+                                <div class="dash_bottom_card1_inner">
+                                    <p>Physical Device Delivered on </p>
+                                    <span>5 Jan,2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="dash_bottom_card2">
+                                <div class="dash_bottom_card2_title">
+                                    <h3>Recent orders</h3>
+                                    <select class="form-select dashselect">
+                                        <option value="" selected>Jan 2025</option>
+                                        <option value="">Feb 2025</option>
+                                    </select>
+                                </div>
+                                <div class="dash_bottom_card2_table">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                            <th scope="col"><p class="dt_p"><img src="../assets/img/dt1.svg" alt="">Order</p></th>
+                                            <th scope="col"><p class="dt_p"><img src="../assets/img/dt2.svg" alt="">Date</p></th>
+                                            <th scope="col"><p class="dt_p"><img src="../assets/img/dt3.svg" alt="">Status</p></th>
+                                            <th scope="col"><p class="dt_p">Total</p></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><p class="paid_dt1"><input type="checkbox" checked> #1532</p></td>
+                                                <td><p class="paid_dt2">Dec 30, 10:06 AM</p></td>
+                                                <td><p class="paid_dt3"><button type="button">Paid</button></p></td>
+                                                <td><p class="paid_dt4">$ 329.40</p></td>
+                                            </tr>
+                                            <tr>
+                                                <td><p class="pending_dt1"><input type="checkbox"> #1532</p></td>
+                                                <td><p class="pending_dt2">Dec 30, 10:06 AM</p></td>
+                                                <td><p class="pending_dt3"><button type="button">Pending</button></p></td>
+                                                <td><p class="pending_dt4">$ 329.40</p></td>
+                                            </tr>
+                                            <tr>
+                                                <td><p class="pending_dt1"><input type="checkbox" > #1532</p></td>
+                                                <td><p class="pending_dt2">Dec 30, 10:06 AM</p></td>
+                                                <td><p class="pending_dt3"><button type="button">Pending</button></p></td>
+                                                <td><p class="pending_dt4">$ 329.40</p></td>
+                                            </tr>
+                                            <tr>
+                                                <td><p class="paid_dt1"><input type="checkbox" checked> #1532</p></td>
+                                                <td><p class="paid_dt2">Dec 30, 10:06 AM</p></td>
+                                                <td><p class="paid_dt3"><button type="button">Paid</button></p></td>
+                                                <td><p class="paid_dt4">$ 329.40</p></td>
+                                            </tr>
+                                            <tr>
+                                                <td><p class="paid_dt1"><input type="checkbox" checked> #1532</p></td>
+                                                <td><p class="paid_dt2">Dec 30, 10:06 AM</p></td>
+                                                <td><p class="paid_dt3"><button type="button">Paid</button></p></td>
+                                                <td><p class="paid_dt4">$ 329.40</p></td>
+                                            </tr>
+                                            <tr>
+                                                <td><p class="pending_dt1"><input type="checkbox" > #1532</p></td>
+                                                <td><p class="pending_dt2">Dec 30, 10:06 AM</p></td>
+                                                <td><p class="pending_dt3"><button type="button">Pending</button></p></td>
+                                                <td><p class="pending_dt4">$ 329.40</p></td>
+                                            </tr>
+                                            <tr>
+                                                <td><p class="paid_dt1"><input type="checkbox" checked> #1532</p></td>
+                                                <td><p class="paid_dt2">Dec 30, 10:06 AM</p></td>
+                                                <td><p class="paid_dt3"><button type="button">Paid</button></p></td>
+                                                <td><p class="paid_dt4">$ 329.40</p></td>
+                                            </tr>
+                                        </tbody>
+                                        </table>
+                                </div>
                             </div>
                         </div>
                     </div>
